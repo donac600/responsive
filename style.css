@@ -40,14 +40,17 @@ body, main{
 .text, .name-comment {
     background-color: white;
     padding: 15px;
-    min-height: 120px;
     margin-top: -5px;
+}
+.text {
+    min-height: 180px;
 }
 .right-box {
     margin-bottom: 25px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .container {flex-direction: column;}
     .left {min-width: 100%; margin: auto;}
     .right {min-width: 100%; margin: auto;}
+    .container {min-width: 90%;}
 }
